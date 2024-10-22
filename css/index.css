@@ -1,4 +1,29 @@
 * {
 	background: blanchedalmond;
 	color: black;
-}
+	box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  }
+  
+  body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+  }
+  
+  img {
+	max-width: 100%; /* Ensures images don't exceed their container's width */
+	height: auto; /* Maintains aspect ratio */
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+	margin: 10px 0;
+  }
+  
+  /* For narrower screens, consider using media queries */
+  @media (max-width: 768px) {
+	/* Adjust layout for smaller screens here */
+	h1 {
+	  font-size: 2em;
+	}
+	/* Add more styles as needed */
+  }
